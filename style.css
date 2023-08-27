@@ -256,6 +256,7 @@
 .macbook-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
   margin: 0 12px;
   column-gap: 12px;
 }
@@ -444,4 +445,24 @@ footer .copyright a:hover {
 .termos li {
   border-right: 2px solid #d2d2d7;
   padding-right: 1rem;
+}
+
+/*MEDIA QUERYS*/
+
+@media (max-width: 450px) {
+  .macbook-card,
+  .watch-airpods,
+  .watch-fitness {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .macbook-card,
+  .watch-airpods,
+  .watch-fitness,
+  .iphone-14,
+  .iphone-14pro,
+  .apple-watch {
+    background-size: 360px;
+    background-position: bottom;
+  }
 }
