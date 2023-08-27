@@ -5,6 +5,10 @@
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   display: flex;
   justify-content: center;
