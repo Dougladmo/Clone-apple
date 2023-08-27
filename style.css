@@ -454,15 +454,19 @@ footer .copyright a:hover {
   .watch-airpods,
   .watch-fitness {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 360px;
   }
-  .macbook-card,
-  .watch-airpods,
-  .watch-fitness,
-  .iphone-14,
-  .iphone-14pro,
-  .apple-watch {
+  .iphone-14pro {
+    text-align: center;
     background-size: 360px;
+    background-position: center/bottom;
+  }
+  .iphone-14 {
+    background-size: 1000px;
     background-position: bottom;
+  }
+  .apple-watch {
+    background-size: 500px;
+    background-position: center;
   }
 }
