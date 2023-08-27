@@ -1,0 +1,447 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  position: fixed;
+  top: 0;
+  height: 44px;
+  width: 100vw;
+
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#brand {
+  font-size: 17px;
+}
+
+.header a {
+  color: #000000ce;
+  font-size: 12px;
+}
+
+.header a:hover {
+  color: #000;
+  transition: 0.3s;
+}
+
+.header .header-navbar {
+  display: flex;
+  gap: 40px;
+}
+
+.ph {
+  font-size: 14px;
+}
+
+.header .header-navbar li {
+  list-style: none;
+}
+.header .header-navbar a {
+  text-decoration: none;
+}
+.iphone-14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  margin-top: 65px;
+  height: 680px;
+
+  background-image: url(assets/banneriphone.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.iphone-14-action h1 {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.iphone-14-action p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.iphone-14-action a {
+  font-size: 20px;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.iphone-14-action .links {
+  display: flex;
+  gap: 65px;
+}
+
+.iphone-14-action a:hover {
+  text-decoration: underline;
+}
+
+.iphone-14pro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  margin-top: 65px;
+
+  height: 750px;
+
+  background-image: url(assets/probanner.svg);
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: bottom;
+}
+
+.iphone-14pro {
+  background-color: #000;
+  margin-top: -1px;
+}
+
+.iphone-14pro .iphone-14-action {
+  margin-top: 65px;
+}
+
+.iphone-14pro .iphone-14-action .links,
+.airpods .iphone-14-action .links {
+  margin-left: 3rem;
+}
+
+.iphone-14pro .iphone-14-action h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.iphone-14pro .iphone-14-action p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+.apple-watch img {
+  margin-top: 60px;
+}
+
+.apple-watch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  margin-top: 65px;
+  margin-bottom: -70px;
+
+  height: 680px;
+
+  background-image: url(assets/bannerwatch.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom/center;
+}
+
+.watch-airpods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 12px;
+  column-gap: 12px;
+}
+
+.watch-series img {
+  width: 600px;
+  margin-top: 65px;
+  margin-bottom: 10px;
+}
+
+.airpods .iphone-14-action {
+  margin-top: 35px;
+}
+
+.watch-series {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 65px;
+
+  height: 680px;
+
+  background-image: url(assets/series8banner.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.airpods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  margin-top: 65px;
+
+  height: 680px;
+
+  background-image: url(assets/airpods.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.watch-airpods h1,
+.watch-airpods p {
+  text-align: center;
+  color: #fff;
+}
+.watch-airpods h1 {
+  font-size: 50px;
+}
+
+.watch-fitness {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 12px;
+  column-gap: 12px;
+}
+
+.watch-se {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  margin-top: 35px;
+
+  height: 700px;
+
+  background-image: url(assets/bannerSE.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.watch-se img {
+  margin-top: 35px;
+}
+
+.fitness {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  margin-top: 35px;
+
+  height: 700px;
+
+  background-image: url(assets/fitnessbanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fitness img {
+  margin-top: 30px;
+}
+
+.fitness p {
+  font-size: 20px;
+  max-width: 400px;
+}
+
+.macbook-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 12px;
+  column-gap: 12px;
+}
+
+.macbook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+
+  height: 700px;
+
+  background-image: url(assets/macbook.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.macbook h1 {
+  margin-top: 65px;
+  margin-bottom: 0;
+}
+
+.macbook img {
+  width: 300px;
+}
+
+.apple-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+
+  height: 700px;
+
+  background-image: url(assets/cardbanner.svg);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: center;
+}
+
+.apple-card img {
+  margin-top: 65px;
+}
+
+.apple-card p {
+  font-size: 20px;
+  max-width: 400px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider h1 {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.container-fluid {
+  width: 100vw;
+  margin: 40px auto;
+}
+
+.gallery-wrapper {
+  overflow-x: auto;
+}
+
+.arrow-left {
+  position: absolute;
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  height: 600px;
+  width: 12.5%;
+  left: 0;
+}
+
+.arrow-right {
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  position: absolute;
+  height: 600px;
+  right: 0;
+  width: 12.5%;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+}
+
+.item {
+  width: 80vw;
+  margin-left: 1rem;
+  height: 90vh;
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+  opacity: 0.5;
+}
+
+.current-item {
+  opacity: 1;
+}
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.gallery-wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+footer {
+  background-color: #f5f5f7;
+  padding: 25px 244px;
+  color: #6e6e73;
+  font-size: 12px;
+}
+
+footer .footer-head a {
+  color: #6e6e73;
+}
+
+footer .footer-main {
+  margin-bottom: 30px;
+}
+
+footer .footer-main a {
+  color: #6e6e73;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer .footer-main a:hover {
+  text-decoration: underline;
+}
+
+footer h3 {
+  color: #1d1d1f;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer-main li {
+  list-style: none;
+  margin-bottom: 12px;
+  line-height: 16px;
+}
+
+.footer-main nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer .copyright {
+  display: flex;
+  justify-content: space-between;
+}
+footer .copyright a {
+  color: #6e6e73;
+  text-decoration: none;
+}
+
+footer .copyright a:hover {
+  text-decoration: underline;
+}
+
+.termos ul {
+  display: flex;
+  column-gap: 20px;
+  list-style: none;
+}
+
+.termos a {
+  color: #6e6e73;
+  text-decoration: none;
+}
+
+.termos a:hover {
+  text-decoration: underline;
+}
+
+.termos li {
+  border-right: 2px solid #d2d2d7;
+  padding-right: 1rem;
+}
