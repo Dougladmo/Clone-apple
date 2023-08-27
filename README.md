@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 é um clone da homepage da Apple
 
-- [Acesse o projeto finalizado, online](#)
+- [Acesse o projeto finalizado, online](https://dougladmo.github.io/Clone-apple/)
 
 ## 🔖 Layout
 
